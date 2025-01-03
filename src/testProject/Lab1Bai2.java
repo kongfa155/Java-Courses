@@ -13,5 +13,6 @@ public class Lab1Bai2 {
 		System.out.printf("Chu vi = %.2f\n", chuvi);
 		System.out.printf("Dien tich = %.2f\n", dientich);
 		System.out.println("Canh nho nhat hcn la " + Math.min(dai, rong));
+		scanner.close();
 	}
 }

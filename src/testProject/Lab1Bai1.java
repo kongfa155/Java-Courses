@@ -10,5 +10,6 @@ public class Lab1Bai1 {
 		System.out.println("Điểm của sinh viên: ");
 		double diemsinhvien = scanner.nextDouble();
 		System.out.printf("\"" + tensinhvien + "\"" + " có điểm =  %.1f", diemsinhvien);
+		scanner.close();
 	}
 }
