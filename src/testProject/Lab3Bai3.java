@@ -20,5 +20,6 @@ public class Lab3Bai3 {
 		System.out.print("\n");
 		System.out.println("So nho nhat la " + arr[0]);
 		System.out.println("So lon nhat la " + arr[size - 1]);
+		sc.close();
 	}
 }

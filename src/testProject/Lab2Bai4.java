@@ -72,6 +72,7 @@ public class Lab2Bai4 {
 		default:
 			System.exit(0);
 		}
+		scanner.close();
 
 	}
 }

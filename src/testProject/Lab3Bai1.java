@@ -19,5 +19,6 @@ public class Lab3Bai1 {
 		} else {
 			System.out.printf("So %d la so nguyen to", num);
 		}
+		sc.close();
 	}
 }
