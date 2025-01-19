@@ -9,6 +9,12 @@ public class Product {
 
 	}
 
+	public Product(String name1, double price1, double tax1) {
+		this.name = name1;
+		this.price = price1;
+		this.tax = tax1;
+	}
+
 	public void nhapThongTin(String name1, double price1, double tax1) {
 		this.setName(name1);
 		this.setPrice(price1);
