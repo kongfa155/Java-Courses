@@ -20,11 +20,11 @@ public class check {
 		System.out.println("Vui long nhap gmail cua ban");
 		String gmail = sc.nextLine();
 		Pattern gmailPattern = Pattern.compile("^[\\w.+\\-]+@gmail\\.com$");
-		Matcher gmailMatcher = gmailPattern.matcher(id);
+		Matcher gmailMatcher = gmailPattern.matcher(gmail);
 		if (gmailMatcher.matches()) {
-			System.out.println("Gmail :" + id + " la hop le");
+			System.out.println("Gmail :" + gmail + " la hop le");
 		} else {
-			System.out.println("Gmail:" + id + " khong hop le");
+			System.out.println("Gmail:" + gmail + " khong hop le");
 		}
 		sc.close();
 	}
