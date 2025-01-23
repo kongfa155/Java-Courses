@@ -1,12 +1,17 @@
-package Chapter6;
+package chapter7;
 
 public class SinhVienIT extends SinhVien {
-	private String languages;
 	private double scoreHTML;
 	private double scoreJava;
 
 	double getDiem() {
 		return (getScoreJava() * 2 + getScoreHTML()) / 3;
+	}
+
+	public SinhVienIT(double HTML, double Java) {
+		super();
+		this.scoreHTML = HTML;
+		this.scoreJava = Java;
 	}
 
 	public double getScoreHTML() {
@@ -23,19 +28,6 @@ public class SinhVienIT extends SinhVien {
 
 	public void setScoreJava(double scoreJava) {
 		this.scoreJava = scoreJava;
-	}
-
-	public SinhVienIT(String languages, String id, String ten, double price, double tax) {
-		super(id, ten, price, tax);
-		this.languages = languages;
-	}
-
-	public String getLanguages() {
-		return languages;
-	}
-
-	public void setLanguages(String languages) {
-		this.languages = languages;
 	}
 
 }

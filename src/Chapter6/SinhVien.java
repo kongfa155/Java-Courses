@@ -1,10 +1,12 @@
 package Chapter6;
 
-public class SinhVien {
+public abstract class SinhVien {
 	protected String id;
 	protected String ten;
 	protected double price;
 	protected double tax;
+
+	abstract double getDiem();
 
 	public SinhVien(String id, String ten, double price, double tax) {
 		this.id = id;
